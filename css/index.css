@@ -49,7 +49,9 @@
 .news-bd ul li {
     height:24px;
     line-height:24px;
-
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
 }
 .news-bd ul li a {
     font-size:12px;  
@@ -64,6 +66,7 @@
     width:252px;
 }
 .lifeservice ul li {
+    position:relative;
     float:left;
     width:63px;
     height:71px;
@@ -82,4 +85,40 @@
 }
 .bargain {
     margin-top:5px;
+}
+.hot {
+    position:absolute;
+    top:0;
+    right:0;
+    width:12px;
+    height:15px;
+    background:url(../upload/jian.jpg) no-repeat;
+}
+/* 推荐模块 */
+.recom {
+    height:163px;
+    background-color:#ebebeb;
+    margin-top:12px;
+}
+.recom-hd {
+    float:left;
+    width:205px;
+    height:100%;
+    background-color: #5c5251;
+    text-align:center;
+    padding-top:30px;
+}
+.recom-hd p {
+    color:white;
+    font-size:18px;
+    margin-top:5px;
+}
+.recom-bd {
+    float:left;
+
+}
+.recom-bd ul li {
+    float:left;
+   
+
 }
