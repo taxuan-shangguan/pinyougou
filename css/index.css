@@ -118,7 +118,38 @@
 
 }
 .recom-bd ul li {
+    position:relative;
     float:left;
-   
-
+}
+.recom-bd ul li img {
+    width:248px;
+    height:163px;
+}
+.recom-bd ul li:nth-child(-n+3)::after {
+    position:absolute;
+    right:0;
+    top:10px;
+    content:'';
+    height:145px;
+    width:1px;
+    background-color:#dddddd;
+}
+.box-hd {
+    height:30px;
+    border-bottom:2px solid #c81623;
+}
+.box-hd h3 {
+    float:left;
+    font-size:18px;
+    color:#c81623;
+}
+.tab_list {
+    float:right;
+    line-height:30px;
+}
+.tab_list ul li {
+    float:left;
+}
+.tab_list ul li a {
+    padding:5px 15px;
 }
