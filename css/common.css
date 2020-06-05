@@ -15,6 +15,7 @@
     margin:0;
     box-sizing:border-box;
 }
+
   
   /* 快捷导航栏 */
   .shortcut {
@@ -149,7 +150,8 @@
 .nav .dropdown {
     float:left;
     width:210px;
-    /* height:45px; */
+    height:45px;
+    /* 高度设置的意义 */
     background-color:#b1191a;
    
     

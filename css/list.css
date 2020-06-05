@@ -1,0 +1,11 @@
+.sk {
+    position:absolute;
+    left:190px;
+    top:40px;
+    border-left:1px solid #c81523;
+    padding:3px 0 0 10px;
+}
+.sk img {
+    width: 35px;
+    height: 20px;
+}

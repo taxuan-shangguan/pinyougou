@@ -158,44 +158,50 @@
 }
 .box-bd {
     height:361px;
+    background-color:white;
 }
 .tab_list_item>div {
     float:left;
     height:361px;
 }
-.con_210 {
+.col_210 {
     width: 210px;
     background-color: #f9f9f9;
     text-align:center;
     
 }
-.con_210 ul {
+.col_210 ul {
     padding-left:12px;
 }
-.con_210 ul li {
+.col_210 ul li {
     float:left;
     width: 85px;
     height: 34px;
     margin-right:10px;
     border-bottom:1px solid #ccc;
 }
-.con_210 ul li a {
+.col_210 ul li a {
     font-size:12px;
     line-height: 33px;
 }
-.con_329 {
+.col_329 {
     width: 329px;
 }
-.con_221 {
+.col_221 {
     width: 221px;
     border-right:1px solid #ccc;
+    font-size:0;
+
 }
-.con_219 {
+.col_219 {
     width: 219px;
+    font-size:0;
     border-right:1px solid #ccc;
 
 }
+
 .bb {
-    display:block;
+    display:block; 
+    /* 一般情况下，a下面包含了有宽度的盒子 ，则需要转换为块级元素。 */
     border-bottom: 1px solid #ccc;
 }
